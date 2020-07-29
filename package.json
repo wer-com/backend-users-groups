@@ -1,0 +1,26 @@
+{
+  "name": "felg-dent-task",
+  "version": "1.0.0",
+  "description": "Task for FELG DENT",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "users"
+  ],
+  "author": "Kamil Wereszko",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "mongoose": "^5.9.25"
+  }
+}
